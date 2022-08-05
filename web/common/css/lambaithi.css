@@ -1,0 +1,108 @@
+
+
+/*đếm thời gian, nộp bài*/
+.exam-time{
+    margin-top: 20px;
+    color: black;
+}
+.time-remaining{
+    padding: 3px;
+    width: 100px;
+    font-size: 15pt;
+    background:  white;
+    border: darkorange;
+    color:black;
+
+}
+.btn-nopbai{
+    padding: 5px;
+    width: 100px;
+    font-size: 13pt;
+    font-weight: bold;
+    background:  crimson;
+    border-color: rgb(168, 7, 40);
+    color:white;
+    display: block;
+    margin-top: 10px;
+}
+.btn-nopbai:hover{
+    background:rgb(197, 15, 51);
+}
+
+
+
+/* phần lựa chọn câu hỏi bên trái*/
+.listCauhoi{
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+.btn.choncauhoi{
+    padding: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 30px;
+    font-size: 10pt;
+    background:  white;
+    border-color: #25c2b7;
+    color:black;
+    border-radius: 12px;
+  }
+
+.btn.choncauhoi:hover{
+    background: #1caca2;
+    width: 35px;
+    color: white;
+  }
+
+  /* giao diện làm bài */
+  body{
+    line-height: 1.3;
+  }
+  .exam-header{
+    text-align: center;
+    
+  }
+  .exam-title{
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+  }
+  .exam-infor{
+    font-style: italic;
+    color: #25c2b7;
+  }
+
+  #clickStartOK{
+    text-align: center;
+  }
+
+  .exam-content{
+    margin: 5px;
+    padding: 2px;
+  }
+  .cauhoi-noidung{
+    color: black;
+    font-weight: bold;
+
+  }
+  div.cauhoi-traloi  input{
+    display: none;
+  }
+  div.cauhoi-traloi  label{
+    margin: 0;
+    font-size: 13pt;
+    color: rgb(57, 63, 70);
+  }
+  div.cauhoi-traloi  label:hover{
+    color: white;
+    background-color:#5edfd6;
+    cursor: pointer;
+  }
+  div.cauhoi-traloi  input:checked ~ label{
+    display: inline-block;
+    font-weight: bold;
+    color: #25c2b7;
+  }
+  .cauhoi-traloi{
+    margin: 5px 0px 15px 10px;
+  }
